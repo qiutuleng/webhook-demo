@@ -1,6 +1,12 @@
 const Express = require('express');
 const app = Express();
 
+// Middleware
+const bodyParserMiddleware = require('body-parser');
+
+// Using middleware
+app.use(bodyParserMiddleware.json());
+
 // Routes
 app.get('/', (request, response) => response.send('Hello, world.'));
 

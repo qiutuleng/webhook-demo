@@ -25,6 +25,6 @@ $ yarn install
     ```bash
     $ node index.js
     ```
-3. Enter the url in the Payload URL of the webhook configuration page. the url like this `http://your-domain.com:3000`
+3. Enter the url in the Payload URL of the webhook configuration page. the url like this `http://your-domain.com:3000/webhook`
 
 **NOTE:** If you run this project in localhost, you can use [ngrok](https://nogrk.com) To forward the request 

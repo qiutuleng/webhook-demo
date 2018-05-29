@@ -8,6 +8,10 @@ You can use it for:
 2. Automatic build.
 3. Repository change record.
 
+# Features
+
+1. Securing your program from attacks, [read more](https://developer.github.com/webhooks/securing).
+
 # How to use?
 
 ## Install
@@ -15,7 +19,7 @@ You can use it for:
 ```bash
 $ git clone https://github.com/qiutuleng/webhook-demo.git
 $ cd webhook-demo
-$ yarn install
+$ yarn install # or using npm: npm install
 ```
 
 ## Configure
